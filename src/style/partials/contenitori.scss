@@ -1,0 +1,9 @@
+//CONTENITORI
+
+.container{
+    margin: auto;
+    max-width: var(--container-size);
+    &.small-container{
+        max-width: var(--small-container);
+    }
+}
